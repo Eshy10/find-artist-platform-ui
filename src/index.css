@@ -5,6 +5,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Durk-Wide-Bold';
+  src: url('fonts/Druk-Wide-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral-Cf';
+  src: url('fonts/Fontspring-DEMO-integralcf-regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 @tailwind base;
 @tailwind components;
