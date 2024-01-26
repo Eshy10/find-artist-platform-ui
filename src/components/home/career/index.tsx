@@ -10,7 +10,7 @@ const ArtistCareer = () => {
    ];
    return (
       <ScrollAnimation>
-         <section className="flex bg-[#EFEFEF] p-10 pt-20 pb-[15rem]">
+         <section className="flex bg-[#EFEFEF] p-10 pt-20 min-[990px]:pb-[15rem]">
             <div className="max-[990px]:hidden w-full relative">
                <img
                   src={AllArtists}
@@ -24,7 +24,7 @@ const ArtistCareer = () => {
                />
             </div>
             <div>
-               <h1 className="text-[#1A1D1F] text-[38px] font-bold font-[Durk-Wide-Bold] mb-6">
+               <h1 className="text-[#1A1D1F] min-[990px]:text-[38px] text-[20px] font-bold font-[Durk-Wide-Bold] mb-6">
                   YOUR CAREER IS IN YOUR HANDS
                </h1>
                {artistContent.map((artist) => (

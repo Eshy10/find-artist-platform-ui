@@ -13,7 +13,7 @@ const ArtistStats = () => {
       <ScrollAnimation>
          <section className="flex flex-col min-[990px]:flex-row w-full">
             <div className={styles['stats_background']}>
-               <h1 className="text-[#1A1D1F] text-[38px] font-bold font-[Durk-Wide-Bold] mb-6">
+               <h1 className="text-[#1A1D1F] min-[990px]:text-[38px] text-[20px]  font-bold font-[Durk-Wide-Bold] mb-6">
                   USE YOUR STATS TO MAKE MOVES
                </h1>
                {artistContent.map((artist) => (

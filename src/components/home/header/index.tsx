@@ -3,15 +3,15 @@ import { Artist1, ArtistDavid, ArrowIcon } from 'images';
 
 const Header = () => {
    return (
-      <section className="flex w-full pt-36 p-10 max-[990px]:pb-10 pb-[15rem]">
-         <div className="max-[990px]:w-full w-[716px]">
-            <p className="text-white max-[990px]:text-[20px] text-[50px] font-bold font-[Durk-Wide-Bold]">
+      <section className="flex w-full pt-36 p-20 min-[990px]:pb-[15rem]">
+         <div className="w-full min-[990px]:w-[716px]">
+            <p className="text-white min-[990px]:text-[50px] text-[20px] font-bold font-[Durk-Wide-Bold]">
                AN INNOVATIVE PLATFORM THAT
             </p>
             <p className="text-[#E1F16B] max-[990px]:text-[20px] text-[50px] font-bold font-[Durk-Wide-Bold] mt-4">
                SUPPORTS ARTISTS.
             </p>
-            <p className="text-white max-[990px]:text-[16px]  text-[19px] leading-8 mt-5 w-[400px]">
+            <p className="text-white max-[990px]:text-[16px] text-[19px] leading-8 mt-5 w-full min-[990px]:w-[400px]">
                Figma files can also be downloaded from our store. These files include the latest
                Figma features and are{' '}
             </p>
